@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Entrée 1 : Introduction à l'apprentissage machine
+title: Entrée 1 Introduction à l'apprentissage machine
 ---
 
 ## Ce qu'on va voir!
