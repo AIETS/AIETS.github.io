@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Introduction à l'apprentissage machine
+header: ![Nicolas Cage en Lois Lane dans Man Of Steel]({{ site.baseurl }}/images/article1/nicolas_cage_in_superman.png)
 ---
-
-![Nicolas Cage en Lois Lane dans Man Of Steel]({{ site.baseurl }}/images/article1/nicolas_cage_in_superman.png)
 
 ## Ce qu'on va voir!
 1. [Définition](#def)
