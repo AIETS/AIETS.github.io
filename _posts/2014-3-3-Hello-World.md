@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Entrée #1 : Introduction à l'apprentissage machine
+title: Entrée 1 : Introduction à l'apprentissage machine
 ---
 
-## Index
-1. Définition
-2. Comment ça marche, à peu près?
-3. La suite
+## Ce qu'on va voir!
+1. [Définition](#def)
+2. [Comment ça marche, à peu près?](#comment-ca-marche)
+3. [La suite](#suite)
 
-## 1 Définition
+## 1. <a name="def"></a>Définition
 
 Si vous êtes ici, j'imagine qu'il n'est pas nécessaire de vous vanter les avantages de l'apprentissage machine, vous les connaissez sans doute déjà. Par contre, comme lorsqu'on apprend à programmer pour la première fois, il est probable que ce soit difficile d'imaginer comment tout cela fonctionne.
 
@@ -21,7 +21,7 @@ Deux points ont retenu mon attention la première fois que j'ai vu cette citatio
 1. 1959?! Pourtant, je n'avais jamais entendu ce terme avant 2016 (j'étais probablement en retard sur la mode, il faut dire). La réalité, c'est que les techniques d'apprentissage machine existent depuis bien longtemps, mais les ordinateurs n'étaient pas assez puissants pour permettre aux algorithmes d'être performants.
 2. "Sans être explicitement programmés". Pourtant, il doit bien y avoir de la programmation quelque part, non? Évidemment, la réponse est oui! Toutefois, c'est probablement assez loin de ce que vous vous imaginez.
 
-(Parenthèse)
+<span style="color:blue">*(Parenthèse)*</span>
 
 J'espère (ou ne pas) vous surprendre en vous informant du fait que vous avez **très** probablement déjà implémenté un algorithme d'apprentissage machine par vous-même, avant même que vous ayez eu vos connaissances en informatique.
 
@@ -31,7 +31,7 @@ Et bien, la régression linéaire est une technique d'apprentissage machine, vou
 
 Dans la prochaine entrée de ce blogue, nous reviendrons sur les détails et l'implémentation de la régression linéaire. (**EXCITEMENT**)
 
-(Fin de la parenthèse)
+<span style="color:blue">*(Fin de la parenthèse)*</span>
 
 L'apprentissage machine, c'est un sujet profond *(pun intended)*. Peut-être que je veux que mon algorithme puisse :
 
@@ -42,11 +42,11 @@ L'apprentissage machine, c'est un sujet profond *(pun intended)*. Peut-être que
 
 Ces quatre exemples n'utilisent vraisemblablement pas les mêmes techniques (focus sur les 3 premiers, le dernier est là parce que ça me fait rire) et n'ont pas les mêmes objectifs.
 
-![Nicolas Cage en Lois Lane dans Man Of Steel]({{ site.baseurl }}/images/article1/nicolas_cage_in_superman.png) <sup>http://www.indiewire.com/2018/01/nicolas-cage-machine-learning-algorithm-deep-fakes-1201923224/</sup>
+![Nicolas Cage en Lois Lane dans Man Of Steel]({{ site.baseurl }}/images/article1/nicolas_cage_in_superman.png) <sup>[Nicolas Cage en Lois Lane](http://www.indiewire.com/2018/01/nicolas-cage-machine-learning-algorithm-deep-fakes-1201923224/)</sup>
 
---
+---
 
-## 2. Comment ça marche, à peu près?
+## 2. <a name="#comment-ca-marche"></a>Comment ça marche, à peu près?
 
 *Préparez-vous pour le parallèle le plus incroyable au monde*
 
@@ -56,7 +56,7 @@ Le bébé apprend par observation!
 
 Deuxième exemple : Prenons le même bébé fictif, qui apprend maintenant à marcher. C'est pas mal certain que la première fois que le bébé va marcher, il va tomber. En tombant, il se fait mal. On peut donc dire qu'il est puni parce qu'il est tombé. À vouloir éviter les punitions, le bébé va s'adapter et finir par être capable de marcher. Il apprend donc à marcher à force de se tromper et de se corriger (comme [ce bot](https://backyardrobotics.eu/2017/11/27/build-a-balancing-bot-with-openai-gym-pt-i-setting-up/))
 
-![Bébé qui apprend à marcher]({{ site.baseurl }}/images/article1/baby-walking.jpg ) <sup>http://www.indiewire.com/2018/01/nicolas-cage-machine-learning-algorithm-deep-fakes-1201923224/</sup>
+![Bébé qui apprend à marcher]({{ site.baseurl }}/images/article1/baby-walking.jpg ) <sup>[Un bébé qui marche](http://www.indiewire.com/2018/01/nicolas-cage-machine-learning-algorithm-deep-fakes-1201923224/)</sup>
 
 
 Le bébé apprend par renforcement!
@@ -67,14 +67,14 @@ Ce dernier exemple représente parfaitement l'apprentissage machine. L'ordinateu
 
 Comment ça se passe concrètement? On y reviendra dans l'entrée sur la régression linéaire, ça mérite un long texte en soi.
 
---
+---
 
-## 3. La suite
+## 3. <a name="suite"></a>La suite
 
 Cette entrée de blogue fut de courte durée! J'ai réfléchi "longuement" à savoir si je devrais rajouter du contenu pour la rendre plus charnue. Je ne pense pas que ce soit une bonne idée. Le but de ces articles est de fournir une approche simple vers l'apprentissage machine et je crois que ce sera plus facile de faire cela si les articles sont de courtes durées avec de l'information concise.
 
 Dans le prochain article, nous reviendrons sur la régression linéaire. On y abordera aussi les techniques d'optimisation en apprentissage machine. Bref, ça risque d'être beaucoup plus intéressant!
 
---
+---
 
 Francis
