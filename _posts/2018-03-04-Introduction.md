@@ -30,7 +30,7 @@ Deux points ont retenu mon attention la première fois que j'ai vu cette citatio
 
 Et bien, la régression linéaire est une technique d'apprentissage machine, vous êtes (presque) déjà des experts. [Yoshua Bengio](https://mila.quebec/personne/bengio-yoshua/) et [Yann LeCun](http://yann.lecun.com) n'ont qu'à bien se tenir! (Si vous ne les connaissez pas, il s'agit de personnalités par mal connue dans le milieu. En plus, monsieur Bengio est une fierté de chez nous, du québec, pas de l'ÉTS)
 
-Dans la prochaine entrée de ce blogue, nous reviendrons sur les détails et l'implémentation de la régression linéaire. (**EXCITEMENT**)
+Dans le prochain article de ce blogue, nous reviendrons sur les détails et l'implémentation de la régression linéaire. (**EXCITEMENT**)
 
 <span style="color:blue">*(Fin de la parenthèse)*</span>
 
@@ -66,13 +66,13 @@ Maintenant, imaginons un monde fictif où il n'y a pas de règles sur la maltrai
 
 Ce dernier exemple représente parfaitement l'apprentissage machine. L'ordinateur apprend avec des exemples identifiés, jusqu'au point où il est capable de faire des prédictions lui-même.
 
-Comment ça se passe concrètement? On y reviendra dans l'entrée sur la régression linéaire, ça mérite un long texte en soi.
+Comment ça se passe concrètement? On y reviendra dans l'article sur la régression linéaire, ça mérite un long texte en soi.
 
 ---
 
 ## 3. <a name="suite"></a>La suite
 
-Cette entrée de blogue fut de courte durée! J'ai réfléchi "longuement" à savoir si je devrais rajouter du contenu pour la rendre plus charnue. Je ne pense pas que ce soit une bonne idée. Le but de ces articles est de fournir une approche simple vers l'apprentissage machine et je crois que ce sera plus facile de faire cela si les articles sont de courtes durées avec de l'information concise.
+Cet article fut de courte durée! J'ai réfléchi "longuement" à savoir si je devrais rajouter du contenu pour la rendre plus charnue. Je ne pense pas que ce soit une bonne idée. Le but de ces articles est de fournir une approche simple vers l'apprentissage machine et je crois que ce sera plus facile de faire cela si les articles sont de courtes durées avec de l'information concise.
 
 Dans le prochain article, nous reviendrons sur la régression linéaire. On y abordera aussi les techniques d'optimisation en apprentissage machine. Bref, ça risque d'être beaucoup plus intéressant!
 
