@@ -23,11 +23,11 @@ Deux points ont retenu mon attention la première fois que j'ai vu cette citatio
 
 <span style="color:blue">*(Parenthèse)*</span>
 
-J'espère (ou ne pas) vous surprendre en vous informant du fait que vous avez **très** probablement déjà implémenté un algorithme d'apprentissage machine par vous-même, avant même que vous ayez eu vos connaissances en informatique.
+**J'espère (ou ne pas) vous surprendre en vous informant du fait que vous avez très probablement déjà implémenté un algorithme d'apprentissage machine par vous-même, avant même que vous ayez eu vos connaissances en informatique.**
 
-*Throwback* aux cours de maths en 5e secondaire, introduction aux statistiques. Si vous avez fait votre secondaire au Québec dans les... au moins 15 dernières années, vous avez sans doute été introduit aux deux concepts suivants : la corrélation linéaire et la régression linéaire.
+*Throwback* aux cours de maths en 5e secondaire, introduction aux statistiques. Si vous avez fait votre secondaire au Québec dans les... au moins 15 dernières années, vous avez sans doute été introduit aux deux concepts suivants : *la corrélation linéaire* et la *régression linéaire*.
 
-Et bien, la régression linéaire est une technique d'apprentissage machine, vous êtes (presque) déjà des experts. [Yoshua Bengio](https://mila.quebec/personne/bengio-yoshua/) et [Yann LeCun](http://yann.lecun.com) n'ont qu'à bien se tenir!
+Et bien, la régression linéaire est une technique d'apprentissage machine, vous êtes (presque) déjà des experts. [Yoshua Bengio](https://mila.quebec/personne/bengio-yoshua/) et [Yann LeCun](http://yann.lecun.com) n'ont qu'à bien se tenir! (Si vous ne les connaissez pas, il s'agit de personnalités par mal connue dans le milieu. En plus, monsieur Bengio est une fierté de chez nous, du québec, pas de l'ÉTS)
 
 Dans la prochaine entrée de ce blogue, nous reviendrons sur les détails et l'implémentation de la régression linéaire. (**EXCITEMENT**)
 
@@ -42,26 +42,26 @@ L'apprentissage machine, c'est un sujet profond *(pun intended)*. Peut-être que
 
 Ces quatre exemples n'utilisent vraisemblablement pas les mêmes techniques (focus sur les 3 premiers, le dernier est là parce que ça me fait rire) et n'ont pas les mêmes objectifs.
 
-![Nicolas Cage en Lois Lane dans Man Of Steel]({{ site.baseurl }}/images/article1/nicolas_cage_in_superman.png) <sup>[Nicolas Cage en Lois Lane](http://www.indiewire.com/2018/01/nicolas-cage-machine-learning-algorithm-deep-fakes-1201923224/)</sup>
+![Nicolas Cage en Lois Lane dans Man Of Steel]({{ site.baseurl }}/images/article1/nicolas_cage_in_superman.png)
 
 ---
 
-## 2. <a name="#comment-ca-marche"></a>Comment ça marche, à peu près?
+## 2. <a name="comment-ca-marche"></a>Comment ça marche, à peu près?
 
 *Préparez-vous pour le parallèle le plus incroyable au monde*
 
 Imaginez un bébé. Lorsqu'on est enfant, on apprend à parler en écoutant nos parents parler (disclaimer : je ne suis pas un pro de bébés). Plus nos parents répètent des mots, plus il y a de chances que le bébé finisse par les répéter.
 
-Le bébé apprend par observation!
+**Le bébé apprend par observation!**
 
 Deuxième exemple : Prenons le même bébé fictif, qui apprend maintenant à marcher. C'est pas mal certain que la première fois que le bébé va marcher, il va tomber. En tombant, il se fait mal. On peut donc dire qu'il est puni parce qu'il est tombé. À vouloir éviter les punitions, le bébé va s'adapter et finir par être capable de marcher. Il apprend donc à marcher à force de se tromper et de se corriger (comme [ce bot](https://backyardrobotics.eu/2017/11/27/build-a-balancing-bot-with-openai-gym-pt-i-setting-up/))
 
-![Bébé qui apprend à marcher]({{ site.baseurl }}/images/article1/baby-walking.jpg ) <sup>[Un bébé qui marche](http://www.indiewire.com/2018/01/nicolas-cage-machine-learning-algorithm-deep-fakes-1201923224/)</sup>
+**Le bébé apprend par renforcement!**
+
+![Bébé qui apprend à marcher]({{ site.baseurl }}/images/article1/baby-walking.jpg )
 
 
-Le bébé apprend par renforcement!
-
-Maintenant, imaginons un monde fictif où il n'y a pas de règles sur la maltraitance des enfants. Si je prenais ce même bébé, mais que je l'enfermais dans une pièce en lui présentant des millions de photos de chiens. Pour ces millions de photos, on lui indiquerait toujours "Ceci est un [insérer la race du chien]". À un point (encore une fois, je ne suis pas un pro de bébés), on pourrait montrer des nouvelles photos de chiens au bébé et il serait capable de dire de quel type de chien il s'agit, mais il ne serait pas capable de faire quoi que ce soit d'autre.
+Maintenant, imaginons un monde fictif où il n'y a pas de règles sur la maltraitance des enfants. Si je prenais ce même bébé, mais que je l'enfermais dans une pièce en lui présentant des millions de photos de chiens. Pour ces millions de photos, on lui indiquerait toujours "Ceci est un [insérer la race du chien]". À un point (encore une fois, je ne suis pas un pro de bébés), on pourrait montrer des nouvelles photos de chiens au bébé et il serait capable de dire de quel type de chien il s'agit, mais il ne serait pas capable de faire quoi que ce soit d'autre :'(.
 
 Ce dernier exemple représente parfaitement l'apprentissage machine. L'ordinateur apprend avec des exemples identifiés, jusqu'au point où il est capable de faire des prédictions lui-même.
 
