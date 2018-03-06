@@ -2,7 +2,7 @@
 layout: post
 title: Introduction à l'apprentissage machine
 imgheader: /images/article1/nicolas_cage_in_superman.png
-desc: L'apprentissage machine fait des merveilles
+desc: Y'a pas à dire, c'est beau l'progrès!
 author : Francis
 ---
 
