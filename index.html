@@ -8,15 +8,14 @@ layout: default
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
+      <div class="entry" style="padding-bottom:10px;">
         <img src="{{post.imgheader}}" />
 
         <div style="padding-top: 5px;">{{ post.desc }}</div>
       </div>
 
-      <hr/>
-
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Lire plus</a>
     </article>
+    <hr/>
   {% endfor %}
 </div>
