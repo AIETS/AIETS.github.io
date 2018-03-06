@@ -26,7 +26,7 @@ Deux points ont retenu mon attention la première fois que j'ai vu cette citatio
 
 <span style="color:blue">*(Parenthèse)*</span>
 
-**J'espère (ou ne pas) vous surprendre en vous informant du fait que vous avez très probablement déjà implémenté un algorithme d'apprentissage machine par vous-même, avant même que vous ayez eu vos connaissances en informatique.**
+**J'espère (ou pas) vous surprendre en vous informant du fait que vous avez très probablement déjà implémenté un algorithme d'apprentissage machine par vous-même, avant même que vous ayez eu vos connaissances en informatique.**
 
 *Throwback* aux cours de maths en 5e secondaire, introduction aux statistiques. Si vous avez fait votre secondaire au Québec dans les... au moins 15 dernières années, vous avez sans doute été introduit aux deux concepts suivants : *la corrélation linéaire* et la *régression linéaire*.
 
