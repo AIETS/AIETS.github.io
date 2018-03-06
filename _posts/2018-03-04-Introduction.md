@@ -2,7 +2,7 @@
 layout: post
 title: Introduction à l'apprentissage machine
 imgheader: /images/article1/nicolas_cage_in_superman.png
-desc: Comment Nicolas Cage peut-il se retrouver là?!? Viens voir!
+desc: L'apprentissage machine fait des merveilles
 author : Francis
 ---
 
