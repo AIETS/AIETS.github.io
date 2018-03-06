@@ -30,7 +30,7 @@ Deux points ont retenu mon attention la première fois que j'ai vu cette citatio
 
 *Throwback* aux cours de maths en 5e secondaire, introduction aux statistiques. Si vous avez fait votre secondaire au Québec dans les... au moins 15 dernières années, vous avez sans doute été introduit aux deux concepts suivants : *la corrélation linéaire* et la *régression linéaire*.
 
-Et bien, la régression linéaire est une technique d'apprentissage machine, vous êtes (presque) déjà des experts. [Yoshua Bengio](https://mila.quebec/personne/bengio-yoshua/) et [Yann LeCun](http://yann.lecun.com) n'ont qu'à bien se tenir! (Si vous ne les connaissez pas, il s'agit de personnalités par mal connues dans le milieu. En plus, monsieur Bengio est une fierté de chez nous. Du Québec, pas de l'ÉTS)
+Et bien, la régression linéaire est une technique d'apprentissage machine, vous êtes (presque) déjà des experts. [Yoshua Bengio](https://mila.quebec/personne/bengio-yoshua/) et [Yann LeCun](http://yann.lecun.com) n'ont qu'à bien se tenir! (Si vous ne les connaissez pas, il s'agit de personnalités pas mal connues dans le milieu. En plus, monsieur Bengio est une fierté de chez nous. Du Québec, pas de l'ÉTS)
 
 Dans le prochain article de ce blogue, nous reviendrons sur les détails et l'implémentation de la régression linéaire. (**EXCITEMENT**)
 
