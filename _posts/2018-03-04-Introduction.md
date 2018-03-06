@@ -43,7 +43,7 @@ L'apprentissage machine, c'est un sujet profond *(pun intended)*. Peut-être que
 3. [Te proposer le nouveau film (plate) d'Adam Sandler sur Netflix](https://www.rtinsights.com/netflix-recommendations-machine-learning-algorithms/)
 4. [Remplacer les faces d'acteurs par Nicolas Cage dans des films](http://www.indiewire.com/2018/01/nicolas-cage-machine-learning-algorithm-deep-fakes-1201923224/)
 
-Ces quatre exemples n'utilisent vraisemblablement pas les mêmes techniques (focus sur les 3 premiers, le dernier est là parce que ça me fait rire) et n'ont pas les mêmes objectifs.
+Ces quatre exemples n'utilisent vraisemblablement pas les mêmes techniques (focus sur les 3 premiers, le dernier est là parce que ça me fait rire) et n'ont pas les mêmes objectifs. Nous reviendrons sur les différents types d'algorithme (*Teaser* : On parle d'algorithmes supervisés vs. non-supervisés et de classification vs. de régression).
 
 ![Nicolas Cage en Lois Lane dans Man Of Steel]({{ site.baseurl }}/images/article1/nicolas_cage_in_superman.png)
 
@@ -63,9 +63,9 @@ Deuxième exemple : Prenons le même bébé fictif, qui apprend maintenant à ma
 
 ![Bébé qui apprend à marcher]({{ site.baseurl }}/images/article1/baby-walking.jpg )
 
-Maintenant, imaginons un monde fictif où il n'y a pas de règles sur la maltraitance des enfants (oops). Si je prenais ce même bébé, mais que je l'enfermais dans une pièce en lui présentant des photos de chiens. Pour toutes ces photos, on lui indiquerait toujours "Ceci est un [insérer la race du chien]". À un point (encore une fois, je ne suis pas un pro de bébés), on pourrait montrer des nouvelles photos de chiens au bébé et il serait capable de dire de quel type de chien il s'agit s'il l'a vu avant, mais il ne serait pas capable de faire quoi que ce soit d'autre :'(.
+Dernièrement, imaginons un monde fictif où il n'y a pas de règles sur la maltraitance des enfants (oops). Si je prenais ce même bébé, mais que je l'enfermais dans une pièce en lui présentant des photos de chiens. Pour toutes ces photos, on lui indiquerait toujours "Ceci est un [insérer la race du chien]". À un point (encore une fois, je ne suis pas un pro de bébés), on pourrait montrer des nouvelles photos de chiens au bébé et il serait capable de dire de quel type de chien il s'agit s'il l'a vu avant, mais il ne serait pas capable de faire quoi que ce soit d'autre :'(.
 
-Ce dernier exemple représente parfaitement l'apprentissage machine. Si nous reprenons l'exemple de la reconnaissances de chiens, on fournierait à l'algorithme des photos de chiens duement identifiées, puis l'algorithme serait capable de reconnaître les races sur de nouvelles photos où on ne lui indiquerait pas celle-ci et ce, avec une précision surprenante!
+Les exemples précédents représentent parfaitement l'apprentissage machine. Si nous reprenons l'exemple de la reconnaissances de chiens, on fournierait à l'algorithme des photos de chiens duement identifiées, puis l'algorithme serait capable de reconnaître les races sur de nouvelles photos où on ne lui indiquerait pas celle-ci et ce, avec une précision surprenante!
 
 Comparativement au bébé, qui a la chance d'avoir un cerveau incroyablement puissant comparativement à un ordinateur, l'algorithme a besoin d'un **immense** volume de données. Il doit recevoir des milliers, voir des dizaines de milliers (ou plus!) de photos avant d'être à l'aise de faire des "prédictions".
 
