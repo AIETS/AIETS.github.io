@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction à l'apprentissage machine
-imgheader: ![Nicolas Cage en Lois Lane dans Man Of Steel]({{ site.baseurl }}/images/article1/nicolas_cage_in_superman.png)
+imgheader: images/article1/baby-walking.jpg
 desc: Comment Nicolas Cage peut-il se retrouver là?!?
 ---
 

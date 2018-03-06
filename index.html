@@ -9,7 +9,10 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.desc }}
+
+        {% image page.imgheader alt="Logo" [autosize] %}
+
+        <div>{{ post.desc }}</div>
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Lire plus</a>
