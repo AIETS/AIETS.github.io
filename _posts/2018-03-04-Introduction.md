@@ -41,7 +41,7 @@ L'apprentissage machine, c'est un sujet profond *(pun intended)*. Peut-être que
 1. [Conduire une voiture dans GTA5](https://github.com/gtarobotics/self-driving-car)
 2. [Prédire le prix du bitcoin](https://github.com/cbyn/bitpredict)
 3. [Te proposer le nouveau film (plate) d'Adam Sandler sur Netflix](https://www.rtinsights.com/netflix-recommendations-machine-learning-algorithms/)
-4. [Remplacer les faces d'acteurs par Nicholas Cage dans des films](http://www.indiewire.com/2018/01/nicolas-cage-machine-learning-algorithm-deep-fakes-1201923224/)
+4. [Remplacer les faces d'acteurs par Nicolas Cage dans des films](http://www.indiewire.com/2018/01/nicolas-cage-machine-learning-algorithm-deep-fakes-1201923224/)
 
 Ces quatre exemples n'utilisent vraisemblablement pas les mêmes techniques (focus sur les 3 premiers, le dernier est là parce que ça me fait rire) et n'ont pas les mêmes objectifs.
 
