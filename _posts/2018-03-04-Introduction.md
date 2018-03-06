@@ -80,4 +80,4 @@ Dans le prochain article, nous reviendrons sur la régression linéaire. On y ab
 
 ---
 
-{{post:autor}}
+{% post.author %}
