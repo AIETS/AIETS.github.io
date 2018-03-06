@@ -3,6 +3,7 @@ layout: post
 title: Introduction à l'apprentissage machine
 imgheader: /images/article1/nicolas_cage_in_superman.png
 desc: Comment Nicolas Cage peut-il se retrouver là?!? Viens voir!
+author : Francis
 ---
 
 ## Ce qu'on va voir!
@@ -79,4 +80,4 @@ Dans le prochain article, nous reviendrons sur la régression linéaire. On y ab
 
 ---
 
-Francis
+{{post:autor}}
