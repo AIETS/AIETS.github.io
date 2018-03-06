@@ -63,12 +63,13 @@ Deuxième exemple : Prenons le même bébé fictif, qui apprend maintenant à ma
 
 ![Bébé qui apprend à marcher]({{ site.baseurl }}/images/article1/baby-walking.jpg )
 
+Maintenant, imaginons un monde fictif où il n'y a pas de règles sur la maltraitance des enfants (oops). Si je prenais ce même bébé, mais que je l'enfermais dans une pièce en lui présentant des millions de photos de chiens. Pour ces millions de photos, on lui indiquerait toujours "Ceci est un [insérer la race du chien]". À un point (encore une fois, je ne suis pas un pro de bébés), on pourrait montrer des nouvelles photos de chiens au bébé et il serait capable de dire de quel type de chien il s'agit, mais il ne serait pas capable de faire quoi que ce soit d'autre :'(.
 
-Maintenant, imaginons un monde fictif où il n'y a pas de règles sur la maltraitance des enfants. Si je prenais ce même bébé, mais que je l'enfermais dans une pièce en lui présentant des millions de photos de chiens. Pour ces millions de photos, on lui indiquerait toujours "Ceci est un [insérer la race du chien]". À un point (encore une fois, je ne suis pas un pro de bébés), on pourrait montrer des nouvelles photos de chiens au bébé et il serait capable de dire de quel type de chien il s'agit, mais il ne serait pas capable de faire quoi que ce soit d'autre :'(.
+Ce dernier exemple représente parfaitement l'apprentissage machine. Si nous reprenons l'exemple de la reconnaissances de races de chiens, on fournierait à l'algorithme une quantité phénoménale de photos de chiens duement identifiées, puis l'algorithme finierait par être capable de reconnaître les races sur de nouvelles photos où on ne lui indiquerait pas la race et ce, avec une précision surprenante!
 
-Ce dernier exemple représente parfaitement l'apprentissage machine. L'ordinateur apprend avec des exemples identifiés, jusqu'au point où il est capable de faire des prédictions lui-même.
+Comparativement au bébé, qui a la chance d'avoir un cerveau incroyablement puissant comparativement à un ordinateur, l'algorithme a besoin d'un **immense** volume de données. Il doit recevoir des milliers, voir des dizaines de milliers (ou plus!) de photos avant d'être à l'aise de faire des "prédictions".
 
-Comment ça se passe concrètement? On y reviendra dans l'article sur la régression linéaire, ça mérite un long texte en soi.
+Comment ça se passe concrètement? Ce n'est pas le but de cet article :/ On y reviendra dans le prochain, parce que ça va demander du travail!
 
 ---
 
