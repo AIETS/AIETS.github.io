@@ -235,6 +235,7 @@ Le gradient descent, c'est exactement ce que nous venons de voir.
 
 Pour ne pas se casser la tête, voici les dérivées en `m` et `b` du MSE, j'vous les donne, gratisse :
 
+
 \\(\frac{\delta MSE}{\delta m} = \frac{1}{n} * \sum{2*x*(y_{pred} - y_{true})}\\)
 
 et
