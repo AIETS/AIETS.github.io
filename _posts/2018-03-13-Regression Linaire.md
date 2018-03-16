@@ -237,6 +237,8 @@ Pour ne pas se casser la tête, voici les dérivées en `m` et `b` du MSE, j'vou
 
 \\(\frac{\delta MSE}{\delta m} = \frac{1}{n} * \sum{2*x*(y_{pred} - y_{true})}\\)
 
+et
+
 \\(\frac{\delta MSE}{\delta b} = \frac{1}{n} * \sum{2*(y_{pred} - y_{true})}\\)
 
 C'est quasiment trop facilement! On peut peut-être se demander d'où vient le `x` dans la dérivée en `m`, non? Et bien, si on prend r'garde ça de plus près, on se rappelle que `y_pred=m*x + b`. Si on remplace `y_pred` par l'équation de droite dans l'équation du MSE, tout devient logique (du moins, si vous connaissez votre calcul différentiel). Sachez que vous n'avez pas à dériver des équations mathématiques directement dans votre code, ce serait bien trop complexe. Vous pouvez facilement faire les dérivées par vous-même avant (ou aller voir sur Internet).
