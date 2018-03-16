@@ -313,13 +313,13 @@ for step in range(0, n_epoch):
 
 `n_epoch` est aussi un "genre" de *hyper parameter* parce que plus on le met haut, plus notre algorithme devrait bien performer, mais plus ce sera long à faire. Et à un point, et bien la différence de performance n'en vaut plus la peine, tout simplement.
 
-Qu'est-ce qu'on obtient, à la fin de tout ça?
+Qu'est-ce qu'on obtient, à la fin de tout ça? (On regarde la ligne rouge ici)
 
 ![Régression linéaire]({{ site.baseurl }}/images/article2/myplot.png)
 
 (Oui oui, j'ai réutiliser la même image qu'au début. Aucuns regrets.)
 
-Tout le code est [ici](https://github.com/AIETS/BlogCode/blob/master/linear_regression.py) (J'ai volontairement laissé des ptits minis bouts de côté pour que vous alliez voir le code, fak allez y les jeunes!)
+Tout le code est [ici](https://github.com/AIETS/BlogCode/blob/master/linear_regression.py) (J'ai volontairement laissé la partie "Faire de nouvelles prédictions" de côté, parce que c'est que quelques lignes de code et que ça va vous "forcer" à aller voir sur Git pour apprendre des p'tites affaires #clickbait). De plus, je vous encourage à essayer de modifier des trucs, pour bien comprendre comment tout fonctionne.
 
 Bonne chance :)
 
