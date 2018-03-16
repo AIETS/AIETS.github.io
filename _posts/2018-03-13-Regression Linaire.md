@@ -319,7 +319,7 @@ Qu'est-ce qu'on obtient, à la fin de tout ça?
 
 (Oui oui, j'ai réutiliser la même image qu'au début. Aucuns regrets.)
 
-Tout le code est [ici](https://github.com/AIETS/BlogCode/blob/master/linear_regression.py)
+Tout le code est [ici](https://github.com/AIETS/BlogCode/blob/master/linear_regression.py) (J'ai volontairement laissé des ptits minis bouts de côté pour que vous alliez voir le code, fak allez y les jeunes!)
 
 Bonne chance :)
 
