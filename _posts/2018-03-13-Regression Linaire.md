@@ -1,7 +1,7 @@
 ---
 layout: post
 title: De zéro à "héros", la régression linéaire
-imgheader: /images/article1/nicolas_cage_in_superman.png
+imgheader: /images/article2/myplot.png
 desc: Où comment faire comprendre que les maths de 5e secondaire, c'est cool!
 author : Francis
 ---
@@ -191,7 +191,7 @@ Dans notre cas, nous allons utiliser le `Mean Square Error`. Ce que le MSE calcu
 
 Mathématiquement parlant, ça va comme suit :
 
-$MSE = \frac{1}{n} * \sum{(y_{true} - y_{pred})^2}$ où `n` représente le nombre de données dans l'ensemble de test.
+$$MSE = \frac{1}{n} * \sum{(y_{true} - y_{pred})^2}$$ où `n` représente le nombre de données dans l'ensemble de test.
 
 Maintenant, en code !
 
@@ -235,8 +235,8 @@ Le gradient descent, c'est exactement ce que nous venons de voir.
 
 Pour ne pas se casser la tête, voici les dérivées en `m` et `b` du MSE, j'vous les donne, gratisse :
 
-$\frac{\delta MSE}{\delta m} = \frac{1}{n} * \sum{2*x*(y_{pred} - y_{true})}$
-$\frac{\delta MSE}{\delta b} = \frac{1}{n} * \sum{2*(y_{pred} - y_{true})}$
+$$\frac{\delta MSE}{\delta m} = \frac{1}{n} * \sum{2*x*(y_{pred} - y_{true})}$$
+$$\frac{\delta MSE}{\delta b} = \frac{1}{n} * \sum{2*(y_{pred} - y_{true})}$$
 
 C'est quasiment trop facilement! On peut peut-être se demander d'où vient le `x` dans la dérivée en `m`, non? Et bien, si on prend r'garde ça de plus près, on se rappelle que `y_pred=m*x + b`. Si on remplace `y_pred` par l'équation de droite dans l'équation du MSE, tout devient logique (du moins, si vous connaissez votre calcul différentiel). Sachez que vous n'avez pas à dériver des équations mathématiques directement dans votre code, ce serait bien trop complexe. Vous pouvez facilement faire les dérivées par vous-même avant (ou aller voir sur Internet).
 
@@ -312,6 +312,12 @@ for step in range(0, n_epoch):
 ```
 
 `n_epoch` est aussi un "genre" de *hyper parameter* parce que plus on le met haut, plus notre algorithme devrait bien performer, mais plus ce sera long à faire. Et à un point, et bien la différence de performance n'en vaut plus la peine, tout simplement.
+
+Qu'est-ce qu'on obtient, à la fin de tout ça?
+
+![Régression linéaire]({{ site.baseurl }}/images/article2/myplot.png)
+
+(Oui oui, j'ai réutiliser la même image qu'au début. Aucuns regrets.)
 
 Tout le code est [ici](https://github.com/AIETS/BlogCode/blob/master/linear_regression.py)
 
