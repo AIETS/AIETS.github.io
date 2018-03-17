@@ -187,7 +187,7 @@ En apprentissage machine, on définit le coût d'une fonction comme étant l'err
 
 Comment pourrait-on définir cette fonction? On pourrait le faire de plusieurs façons en fait. Il existe plusieurs manières de défininr l'erreur d'une fonction, mais nous en discuterons plus en détail dans un futur quelconque (pas tout de suite en tout cas!).
 
-Dans notre cas, nous allons utiliser le `Mean Square Error`. Ce que le MSE calcule, c'est la distance entre chaque prédictions par rapport à sa valeur réelle au carré, puis on fait une moyenne. Pourquoi au carré? Bonne question! L'erreur est au carré pour que les erreurs très grandes aient un impact encore plus grand sur l'erreur **et** que nous n'ayons pas à nous soucier des valeurs négatives si la prédiction est plus grande que la valeur réelle. La dernière rauson est surement la plus importante : Le MSE se dérive facilement (Attention, *MAT145*)! On va voir pourquoi c'est **si** important dans la prochaine section.
+Dans notre cas, nous allons utiliser le `Mean Square Error`. Ce que le MSE calcule, c'est la distance entre chaque prédictions par rapport à sa valeur réelle au carré, puis on fait une moyenne. Pourquoi au carré? Bonne question! L'erreur est au carré pour que les erreurs très grandes aient un impact encore plus grand sur l'erreur **et** que nous n'ayons pas à nous soucier des valeurs négatives si la prédiction est plus grande que la valeur réelle. La dernière raison est surement la plus importante : Le MSE se dérive facilement (Attention, *MAT145*)! On va voir pourquoi c'est **si** important dans la prochaine section.
 
 Mathématiquement parlant, ça va comme suit :
 
